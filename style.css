@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Caprasimo&display=swap');
+
+body {
+  font-family: 'Bacasime Antique', serif;
+  background-color: yellow;
+  
+}
+
+
+.grid-container {
+  grid-column-start: 2;
+  grid-column-end: five;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows:auto ;
+
+  grid-template-areas:
+    "a a a "
+    "b b b"
+    "c d e"
+    "f f f";
+  border: 1px solid black;
+  
+}
+
+.manu ul {
+  columns: 4;
+
+
+
+}
+
+.manu li {
+  text-align: center;
+
+
+}
+
+
+.head{
+  grid-area: a;
+  border: 1px solid black;
+
+
+}
+.manu {
+  grid-area: b;
+  border: 1px solid black;
+  background-color: rgb(236, 168, 122);
+  grid-template-columns: repeat(4, 100px);
+
+}
+
+.one {
+  background-color: lightblue;
+  border: 1px solid black;
+  text-align: justify;
+  grid-area: c;
+
+}
+.two {
+  background-color:lightskyblue;
+  border: 1px solid black;
+  text-align: justify;
+  grid-area: d;
+}
+.three {
+  background-color:rgb(182, 137, 182);
+  border: 1px solid black;
+  text-align: justify;
+  grid-area: e;
+}
+
+.foot {
+  grid-area: f;
+  border: 1px solid black;
+  text-align: justify;
+  background-color:rgb(231, 115, 47);
+}
+
+h2 {
+    color:black;
+   
+  }
+  
+  p {
+    color:black;
+  }
+  
+
+  
+  h1 {
+    text-align: center;
+    color: black;
+    font-family: 'Caprasimo', cursive;
+  }
+  
+  em {
+    color: gray;
+  }
+  
